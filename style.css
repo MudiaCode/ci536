@@ -43,10 +43,11 @@ nav a {
 }
 
 .hero {
-  height: 100vh;
+  padding-top: 4em;
   justify-content: center;
   align-items: center;
   display: flex;
+  flex-direction: column;
 }
 
 .game-container {
@@ -54,5 +55,73 @@ nav a {
   /* 16:9 Aspect Ration */
   width: 80em;
   height: 45em;
-  margin-bottom: 10em;
+  margin-bottom: 3em;
 }
+
+button {
+  padding: 1em 3em;
+}
+
+.fraction-info-links ul {
+  display: flex;
+}
+
+.fraction-info-links ul li {
+  margin-right: 4em;
+  list-style: none;
+}
+
+.fraction-info-links a {
+  text-decoration: none;
+  color: black;
+}
+
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#quizForm {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.question {
+  border: 1px solid darkgray;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.question p {
+  margin-bottom: 20px;
+}
+
+.question label {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.question label:nth-child(odd) {
+  clear: left;
+  width: 50%;
+  float: left;
+}
+
+.question label:nth-child(even) {
+  width: 50%;
+  float: right;
+  clear: right;
+}
+
+input[type="submit"] {
+  display: block;
+  margin: 20px auto;
+  font-size: 15px;       /* Increase font size */
+  padding: 10px 20px;    /* Increase padding */
+  border-radius: 5px;    /* Optional: Add rounded corners */
+}
+
