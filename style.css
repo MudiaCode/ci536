@@ -6,6 +6,13 @@ padding: 0;
 box-sizing: border-box;
 }
 
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden; /* Prevent browser default scroll */
+}
+
 nav {
   height: 70px;
   background: rgb(20, 20, 20);
@@ -118,4 +125,17 @@ input[type="submit"] {
   padding: 10px 20px;    /* Increase padding */
   border-radius: 5px;    /* Optional: Add rounded corners */
 }
+
+.info-section {
+  height: 100vh;
+  padding: 4em;
+  overflow-y: auto; /* Enable scrolling within the section */
+}
+
+#quizSection{
+  height: 100vh;
+  padding: 4em;
+  margin-top: -9em;
+}
+
 

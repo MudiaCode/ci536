@@ -24,6 +24,7 @@
 </nav>
 
 <div class="y4-sub">
+    <div class="info-section">
     <h1>Year 4 Fractions</h1>
     <div class="fraction-info-links">
         <ul>
@@ -32,7 +33,6 @@
             <li>Subtracting Fractions</li>
         </ul>
     </div>
-    <section>
         <h2>
 How do we Subtract fractions with the same denominator?
 </h2>
@@ -57,15 +57,13 @@ Example 1
         <br>
         <p>Now we have the answer let put the entire equation together!</p>
         <h3>8/12 - 3/12 = 5/12</h3>
-    </section>
+        <button onclick="scrollIntoView('quizSection')">Go to Second Section</button>
+    </div>
 
-    <section>
-
-        <h2>Quiz</h2>
-
+    <div id="quizSection">
         <form id="quizForm">
             <div class="question">
-                <p>What is the common demoninator in the equation 5/12 - 5/21?</p>
+                <p>What is the common denominator in the equation 5/12 - 5/21?</p>
 
                 <label>
                     <input type="radio" name="question1" value="a">
@@ -110,9 +108,10 @@ Example 1
 
             <input type="submit" value="Submit">
         </form>
-    </section>
+    </div>
 </div>
 <script src="../quiz.js"></script>
+<script src="../../app.js"></script>
 
 </body>
 </html>
