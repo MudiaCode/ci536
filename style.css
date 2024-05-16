@@ -4,6 +4,7 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body, html {
@@ -11,6 +12,7 @@ body, html {
   padding: 0;
   height: 100%;
   overflow: hidden; /* Prevent browser default scroll */
+  background-color: #8dc78d;
 }
 
 p {
@@ -32,8 +34,8 @@ h3 {
 
 nav {
   height: 70px;
-  background: rgb(20, 20, 20);
-  color: rgb(220, 220, 220);
+  background-color: #489f48;
+  color: #FFFFFF;
   padding: 0 2rem;
   display: flex;
   justify-content: space-between;
@@ -44,6 +46,7 @@ nav {
 
 .nav-links ul {
   display: flex;
+  background-color: transparent;
 }
 
 nav li {
@@ -58,12 +61,14 @@ nav a {
 
 .logo a {
   display: flex;
+  background-color: transparent;
 }
 
 .logo-img {
   width: 30px;
   margin-right: 1em;
   filter: invert(100%);
+  background: transparent;
 }
 
 .hero {
@@ -79,12 +84,14 @@ nav a {
   /* 16:9 Aspect Ration */
   width: 80em;
   height: 45em;
-  margin-bottom: 3em;
 }
 
 button {
   padding: 1em 3em;
   margin: 2em;
+  background-color: #e7de73;
+  border: black 1px solid;
+  border-radius: 5px;
 }
 
 .fraction-info-links ul {
@@ -173,7 +180,7 @@ input[type="submit"] {
 }
 
 .main {
-  background-color: red;
+  background-color: #e7de73;
 }
 
 .year-header {
