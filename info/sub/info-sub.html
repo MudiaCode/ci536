@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="../../style.css" />
+    <link href="../../style.css" rel="stylesheet" />
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>Maths Ninjas</title>
 </head>
 <body>
 <nav>
     <div class="logo">
         <a href="../../index.html">
-            <img class="logo-img" src="../../images/logo.png" alt="" />
+            <img alt="" class="logo-img" src="../../images/logo.png" />
             <h2>Maths Ninja</h2>
         </a>
     </div>
@@ -25,14 +25,16 @@
 
 <div class="y4-sub">
     <div class="info-section">
-    <h1>Year 4 Fractions</h1>
+    <h2 class="year-header">Year 4 Fractions</h2>
     <div class="fraction-info-links">
         <ul>
             <li><a href="../n-d/info-n-d.html">Numerator and Denominator</a></li>
             <li><a href="../add/info-add.html">Adding Fractions</a></li>
-            <li>Subtracting Fractions</li>
+            <li class="main">Subtracting Fractions</li>
         </ul>
     </div>
+
+        <div class="fractions-main">
         <h2>
 How do we Subtract fractions with the same denominator?
 </h2>
@@ -58,6 +60,7 @@ Example 1
         <p>Now we have the answer let put the entire equation together!</p>
         <h3>8/12 - 3/12 = 5/12</h3>
         <button onclick="scrollIntoView('quizSection')">Go to Second Section</button>
+        </div>
     </div>
 
     <div id="quizSection">
@@ -66,20 +69,20 @@ Example 1
                 <p>What is the common denominator in the equation 5/12 - 5/21?</p>
 
                 <label>
-                    <input type="radio" name="question1" value="a">
+                    <input name="question1" type="radio" value="a">
                     There isn't one!
                 </label>
                 <label>
-                    <input type="radio" name="question1" value="b">
+                    <input name="question1" type="radio" value="b">
                     5
                 </label>
                 <br>
                 <label>
-                    <input type="radio" name="question1" value="c">
+                    <input name="question1" type="radio" value="c">
                     12
                 </label>
                 <label>
-                    <input type="radio" name="question1" value="d">
+                    <input name="question1" type="radio" value="d">
                     21
                 </label>
             </div>
@@ -88,20 +91,20 @@ Example 1
                 <p>What is 7/16 - 2/16?</p>
 
                 <label>
-                    <input type="radio" name="question2" value="a">
+                    <input name="question2" type="radio" value="a">
                     5/0
                 </label>
                 <label>
-                    <input type="radio" name="question2" value="b">
+                    <input name="question2" type="radio" value="b">
                     9/30
                 </label>
                 <br>
                 <label>
-                    <input type="radio" name="question2" value="c">
+                    <input name="question2" type="radio" value="c">
                     5/16
                 </label>
                 <label>
-                    <input type="radio" name="question2" value="d">
+                    <input name="question2" type="radio" value="d">
                     9/16
                 </label>
             </div>

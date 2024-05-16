@@ -84,6 +84,7 @@ nav a {
 
 button {
   padding: 1em 3em;
+  margin: 2em;
 }
 
 .fraction-info-links ul {
@@ -169,4 +170,12 @@ input[type="submit"] {
 .fractions-main {
   border: black 1px solid;
   padding: 2em;
+}
+
+.main {
+  background-color: red;
+}
+
+.year-header {
+  margin-bottom: 1em;
 }
