@@ -13,6 +13,23 @@ body, html {
   overflow: hidden; /* Prevent browser default scroll */
 }
 
+p {
+  padding: 2em;
+}
+
+h3 {
+  padding-left: 3em;
+}
+
+.fraction-info-links li {
+  border: black 1px solid;
+  padding: 1em;
+  margin-right: 0;
+}
+
+.info-section {
+}
+
 nav {
   height: 70px;
   background: rgb(20, 20, 20);
@@ -74,8 +91,14 @@ button {
 }
 
 .fraction-info-links ul li {
-  margin-right: 4em;
+  margin-right: 0;
   list-style: none;
+  border-bottom: none;
+  border-right: none;
+}
+
+.fraction-info-links ul li:nth-child(3) {
+  border-right: black 1px solid;
 }
 
 .fraction-info-links a {
@@ -138,4 +161,12 @@ input[type="submit"] {
   margin-top: -9em;
 }
 
+#quizSectionNd {
+  height: 100vh;
+  padding: 4em;
+}
 
+.fractions-main {
+  border: black 1px solid;
+  padding: 2em;
+}
